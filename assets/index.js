@@ -7,7 +7,7 @@ const wrapper = document.querySelector(".wrapper"),
 let audio;
 
 const data = (result, word) => {
-  console.log({result})
+  //console.log({result})
   if(result.title){
     infoText.innerHTML= `ayaya mzee:${word} ni uongo bana`
     infoText.style.fontSize="14px";
